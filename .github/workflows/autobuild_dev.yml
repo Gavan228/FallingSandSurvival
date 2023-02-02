@@ -3,7 +3,7 @@ name: AutoBuild - dev
 
 on:
   push:
-    branches: [ dev, cmake ]
+    branches: [ dev, cmake, main ]
 
 jobs:
   windows-x64:
